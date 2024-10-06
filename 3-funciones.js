@@ -54,7 +54,7 @@
     const multiplicarFlecha = (a, b) => a * b;
 
 // 4.2 Crea una función flecha llamada `saludarFlecha` que reciba un parámetro `nombre` y devuelva "Hola [nombre]".
-    // Tu código aquí
+   const saludarFlecha = nombre => `Hola ${nombre}`;
 
 // 4.3 Escribe una función flecha llamada `calcularArea` que reciba el radio de un círculo y devuelva el área del círculo. Usa la fórmula A = π * r².
 const calcularArea = radio => {
@@ -98,25 +98,3 @@ if (exponente === 0) {
     return base * potencia(base, exponente - 1);
   }   
 }
-
-// Exportar las funciones para que puedan ser probadas
-module.exports = {
-    despedir,
-    multiplicarPorDos,
-    esMayorDeEdad,
-    multiplicar,
-    saludarPersonalizado,
-    calcularPotencia,
-    restar,
-    dividir,
-    multiplicarDOS,
-    saludar,
-    esPar,
-    calcularArea,
-    suma,
-    fibonacci,
-    factorial,
-    potencia,
-    saludarFlecha,
-    multiplicarFlecha,
-};
